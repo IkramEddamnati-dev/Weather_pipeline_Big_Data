@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-
+# ce script pour demarer la base de donnee de airflow
 if [ -e "/opt/airflow/requirements.txt" ]; then
   python -m pip install --upgrade pip
   pip install -r requirements.txt
